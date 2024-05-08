@@ -89,6 +89,7 @@ pip install djangorestframework</p>
     <li><strong>GET /api/purchase_orders/{po_id}/</strong>: Retrieve details of a specific purchase order.</li>
     <li><strong>PUT /api/purchase_orders/{po_id}/</strong>: Update a purchase order.</li>
     <li><strong>DELETE /api/purchase_orders/{po_id}/</strong>: Delete a purchase order.</li>
+ <li><strong>POST /api/purchase_orders/{po_id}/acknowledge/</strong>: update acknowledgment_date</li>
 </ul>
 
 <h4>POST /api/purchase_orders/</h4>
@@ -115,6 +116,9 @@ pip install djangorestframework</p>
 
 ![Screenshot (600)](https://github.com/sakshijain1234/vendor_management/assets/82942988/87305efa-f2ad-44fe-929c-2fdc4252dfab)
 
+<h4>POST /api/purchase_orders/{po_id}/acknowledge/</h4>
+
+![Screenshot (601)](https://github.com/sakshijain1234/vendor_management/assets/82942988/97ea1917-5a5d-4786-80a8-cc399db25a0c)
 
 
 <h4>Vendor Performance Evaluation:</h4>
