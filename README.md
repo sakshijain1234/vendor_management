@@ -68,6 +68,7 @@ pip install djangorestframework</p>
     <li><a href="https://github.com/sakshijain1234/vendor_management/assets/82942988/3133befc-0842-42ee-8cea-503a8cab0c10">Screenshot (594)</a></li>
     <li><a href="https://github.com/sakshijain1234/vendor_management/assets/82942988/6da91207-73e4-4098-9d2b-5f6327fad087">Screenshot (595)</a></li>
 </ul>
+![Screenshot (592)](https://github.com/sakshijain1234/vendor_management/assets/82942988/1123bf3d-bbc0-4e23-9bde-d5a45054b059)
 
 <h4>Purchase Order Tracking:</h4>
 <ul>
