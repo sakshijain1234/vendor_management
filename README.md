@@ -62,18 +62,23 @@ pip install djangorestframework</p>
 
 <h2>Exmples</h2>
 <h4>GET /api/vendors/</h4>
+
 ![Screenshot (591)](https://github.com/sakshijain1234/vendor_management/assets/82942988/84971773-30d5-4787-8906-04a2e3ab1dcd)
 
 <h4>POST /api/vendors/></h4>
+
 ![Screenshot (592)](https://github.com/sakshijain1234/vendor_management/assets/82942988/9f04c416-ff33-4379-a972-e134f21a70db)
 
 <h4>GET /api/vendors/{vendor_id}/</h4>
+
 ![Screenshot (593)](https://github.com/sakshijain1234/vendor_management/assets/82942988/1872986a-fcaa-487b-9123-73105c0db32a)
 
 <h4>PUT /api/vendors/{vendor_id}/</h4>
+
 ![Screenshot (594)](https://github.com/sakshijain1234/vendor_management/assets/82942988/66a413f4-03a0-4f87-b00f-d59c211376d8)
 
 <h4>DELETE /api/vendors/{vendor_id}/</h4>
+
 ![Screenshot (595)](https://github.com/sakshijain1234/vendor_management/assets/82942988/33caa700-10b5-4723-a0d5-7a94903bfa29)
 
 
