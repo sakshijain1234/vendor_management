@@ -53,16 +53,20 @@ pip install djangorestframework</p>
 <h2>These are the apis that will gonna work as mentioned in assignment</h2>
 <h4>Vendor Profile Management:</h4>
 <ul>
-    <li><strong>POST /api/vendors/</strong>: Create a new vendor.<br></li>
- ![Screenshot (591)](https://github.com/sakshijain1234/vendor_management/assets/82942988/a491e5c9-b024-4a7e-aa35-b9b8b498bb1d)
-    <li><strong>GET /api/vendors/</strong>: List all vendors.<br>![Screenshot (592)](https://github.com/sakshijain1234/vendor_management/assets/82942988/1123bf3d-bbc0-4e23-9bde-d5a45054b059)
-</li>
-    <li><strong>GET /api/vendors/{vendor_id}/</strong>: Retrieve a specific vendor's details.<br>![Screenshot (593)](https://github.com/sakshijain1234/vendor_management/assets/82942988/3a19b81f-48dd-4224-950e-3c9a5da75d0a)
-</li>
-    <li><strong>PUT /api/vendors/{vendor_id}/</strong>: Update a vendor's details.<br>![Screenshot (594)](https://github.com/sakshijain1234/vendor_management/assets/82942988/3133befc-0842-42ee-8cea-503a8cab0c10)
-</li>
-    <li><strong>DELETE /api/vendors/{vendor_id}/</strong>: Delete a vendor.<br>![Screenshot (595)](https://github.com/sakshijain1234/vendor_management/assets/82942988/6da91207-73e4-4098-9d2b-5f6327fad087)
-</li>
+    <li><strong>POST /api/vendors/</strong>: Create a new vendor.</li>
+    <li><strong>GET /api/vendors/</strong>: List all vendors.</li>
+    <li><strong>GET /api/vendors/{vendor_id}/</strong>: Retrieve a specific vendor's details.</li>
+    <li><strong>PUT /api/vendors/{vendor_id}/</strong>: Update a vendor's details.</li>
+    <li><strong>DELETE /api/vendors/{vendor_id}/</strong>: Delete a vendor.</li>
+</ul>
+
+<h4>Screenshots:</h4>
+<ul>
+    <li><a href="https://github.com/sakshijain1234/vendor_management/assets/82942988/a491e5c9-b024-4a7e-aa35-b9b8b498bb1d">Screenshot (591)</a></li>
+    <li><a href="https://github.com/sakshijain1234/vendor_management/assets/82942988/1123bf3d-bbc0-4e23-9bde-d5a45054b059">Screenshot (592)</a></li>
+    <li><a href="https://github.com/sakshijain1234/vendor_management/assets/82942988/3a19b81f-48dd-4224-950e-3c9a5da75d0a">Screenshot (593)</a></li>
+    <li><a href="https://github.com/sakshijain1234/vendor_management/assets/82942988/3133befc-0842-42ee-8cea-503a8cab0c10">Screenshot (594)</a></li>
+    <li><a href="https://github.com/sakshijain1234/vendor_management/assets/82942988/6da91207-73e4-4098-9d2b-5f6327fad087">Screenshot (595)</a></li>
 </ul>
 
 <h4>Purchase Order Tracking:</h4>
