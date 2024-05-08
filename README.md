@@ -62,14 +62,14 @@ pip install djangorestframework</p>
 
 <h4>Screenshots:</h4>
 <ul>
-    <li><a href="https://github.com/sakshijain1234/vendor_management/assets/82942988/a491e5c9-b024-4a7e-aa35-b9b8b498bb1d">Screenshot (591)</a></li>
+    <li>![Screenshot (591)](https://github.com/sakshijain1234/vendor_management/assets/82942988/70c4f6e9-6acf-4890-b7ed-6c1b319c9781)</li>
     <li><a href="https://github.com/sakshijain1234/vendor_management/assets/82942988/1123bf3d-bbc0-4e23-9bde-d5a45054b059">Screenshot (592)</a></li>
     <li><a href="https://github.com/sakshijain1234/vendor_management/assets/82942988/3a19b81f-48dd-4224-950e-3c9a5da75d0a">Screenshot (593)</a></li>
     <li><a href="https://github.com/sakshijain1234/vendor_management/assets/82942988/3133befc-0842-42ee-8cea-503a8cab0c10">Screenshot (594)</a></li>
     <li><a href="https://github.com/sakshijain1234/vendor_management/assets/82942988/6da91207-73e4-4098-9d2b-5f6327fad087">Screenshot (595)</a></li>
 </ul>
 
-![Screenshot (591)](https://github.com/sakshijain1234/vendor_management/assets/82942988/70c4f6e9-6acf-4890-b7ed-6c1b319c9781)
+
 
 <h4>Purchase Order Tracking:</h4>
 <ul>
