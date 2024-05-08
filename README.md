@@ -60,15 +60,21 @@ pip install djangorestframework</p>
     <li><strong>DELETE /api/vendors/{vendor_id}/</strong>: Delete a vendor.</li>
 </ul>
 
-<h4>Screenshots:</h4>
-<ul>
-    <li>![Screenshot (591)](https://github.com/sakshijain1234/vendor_management/assets/82942988/70c4f6e9-6acf-4890-b7ed-6c1b319c9781)</li>
-    <li><a href="https://github.com/sakshijain1234/vendor_management/assets/82942988/1123bf3d-bbc0-4e23-9bde-d5a45054b059">Screenshot (592)</a></li>
-    <li><a href="https://github.com/sakshijain1234/vendor_management/assets/82942988/3a19b81f-48dd-4224-950e-3c9a5da75d0a">Screenshot (593)</a></li>
-    <li><a href="https://github.com/sakshijain1234/vendor_management/assets/82942988/3133befc-0842-42ee-8cea-503a8cab0c10">Screenshot (594)</a></li>
-    <li><a href="https://github.com/sakshijain1234/vendor_management/assets/82942988/6da91207-73e4-4098-9d2b-5f6327fad087">Screenshot (595)</a></li>
-</ul>
+<h2>Exmples</h2>
+<h4>GET /api/vendors/</h4>
+![Screenshot (591)](https://github.com/sakshijain1234/vendor_management/assets/82942988/84971773-30d5-4787-8906-04a2e3ab1dcd)
 
+<h4>POST /api/vendors/></h4>
+![Screenshot (592)](https://github.com/sakshijain1234/vendor_management/assets/82942988/9f04c416-ff33-4379-a972-e134f21a70db)
+
+<h4>GET /api/vendors/{vendor_id}/</h4>
+![Screenshot (593)](https://github.com/sakshijain1234/vendor_management/assets/82942988/1872986a-fcaa-487b-9123-73105c0db32a)
+
+<h4>PUT /api/vendors/{vendor_id}/</h4>
+![Screenshot (594)](https://github.com/sakshijain1234/vendor_management/assets/82942988/66a413f4-03a0-4f87-b00f-d59c211376d8)
+
+<h4>DELETE /api/vendors/{vendor_id}/</h4>
+![Screenshot (595)](https://github.com/sakshijain1234/vendor_management/assets/82942988/33caa700-10b5-4723-a0d5-7a94903bfa29)
 
 
 <h4>Purchase Order Tracking:</h4>
