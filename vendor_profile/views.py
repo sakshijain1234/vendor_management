@@ -59,19 +59,15 @@ def modify_profile(request,vendor_code):
     
 @api_view(["GET"])
 def performance(request,vendor_code):
-    try:
-        query_set=PerformanceRecord.objects.get(vendor=vendor_code)
-    except PerformanceRecord.DoesNotExist:
-        return Response({"message": "Vendor not found"})
-    serializer=performance_serializer(instance=query_set)
     data = {
         "vendor":vendor_code,
         "date": serializer.date(),
-        "on_time_delivery_rate": serializer.delivery_rate(query_set),
-        "quality_rating_avg": serializer.av_quality_rating(query_set),
-        "average_response_time": serializer.av_response_time(query_set),
-        "fulfillment_rate": serializer.update_fulfillment_rate(query_set)
+        "on_time_delivery_rate": serializer.delivery_rate(vendor_code),
+        "quality_rating_avg": serializer.av_quality_rating(vendor_code),
+        "average_response_time": serializer.av_response_time(vendor_code),
+        "fulfillment_rate": serializer.update_fulfillment_rate(vendor_code)
     }
+    serializer=performance_serializer(data=data)
     if serializer.is_valid():
         return Response({"message":"performance of ","data":serializer.data})
     return Response(serializer.errors)

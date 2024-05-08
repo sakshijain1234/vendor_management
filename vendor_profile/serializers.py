@@ -31,7 +31,7 @@ class performance_serializer(serializers.ModelSerializer):
         delivery_date__lte=F("issue_date")
         ).count()
         total_completed_count = PurchaseOrder.objects.filter(
-        vendor=instance.vendor,
+        vendor=instance.vendor, 
         status='completed'
         ).count()
         rate = 0
