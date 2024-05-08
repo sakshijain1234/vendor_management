@@ -91,9 +91,39 @@ pip install djangorestframework</p>
     <li><strong>DELETE /api/purchase_orders/{po_id}/</strong>: Delete a purchase order.</li>
 </ul>
 
+<h4>POST /api/purchase_orders/</h4>
+
+![Screenshot (596)](https://github.com/sakshijain1234/vendor_management/assets/82942988/e8d9d887-29f9-4e0a-a0d3-b747e5136568)
+
+
+<h4>GET /api/purchase_orders/</h4>
+
+![Screenshot (597)](https://github.com/sakshijain1234/vendor_management/assets/82942988/c50e9bde-a845-4a3d-8b02-862cbd05569b)
+
+
+<h4>GET /api/purchase_orders/{po_id}/</h4>
+
+![Screenshot (598)](https://github.com/sakshijain1234/vendor_management/assets/82942988/cece8cf3-0249-4bd6-8ede-2f909e9a8fc9)
+
+
+<h4>PUT /api/purchase_orders/{po_id}/</h4>
+
+![Screenshot (599)](https://github.com/sakshijain1234/vendor_management/assets/82942988/b3758610-0618-4096-b127-63db02467d8f)
+
+
+<h4>DELETE /api/purchase_orders/{po_id}/</h4>
+
+![Screenshot (600)](https://github.com/sakshijain1234/vendor_management/assets/82942988/87305efa-f2ad-44fe-929c-2fdc4252dfab)
+
+
+
 <h4>Vendor Performance Evaluation:</h4>
 <ul>
     <li><strong>GET /api/vendors/{vendor_id}/performance</strong>: Retrieve a vendor's performance metrics.</li>
 </ul>
+
+<h4>DELETE /api/purchase_orders/{po_id}/</h4>
+
+
 
 
