@@ -45,3 +45,30 @@ pip install django<br>
 django-admin startproject vendor_management<br>
 cd vendor_management<br>
 pip install djangorestframework</p>
+
+<h3>Run the project using</h3>
+
+<p>python manage.py runserver</p>
+
+<h2>These are the apis that will gonna work as mentioned in assignment</h2>
+<h4>Vendor Profile Management:</h4>
+     <ul>
+        <li><strong>POST /api/vendors/:</strong> Create a new vendor.</li>
+        <li><strong>GET /api/vendors/:</strong> List all vendors.</li>
+        <li><strong>GET /api/vendors/{vendor_id}/:</strong> Retrieve a specific vendor's details.</li>
+        <li><strong>PUT /api/vendors/{vendor_id}/:</strong> Update a vendor's details.</li>
+        <li><strong>DELETE /api/vendors/{vendor_id}/:</strong> Delete a vendor.</li>
+    </ul>
+<h4>Purchase Order Tracking:</h4>
+    <ul>
+        <li><strong>POST /api/purchase_orders/:</strong> Create a purchase order.</li>
+        <li><strong>GET /api/purchase_orders/:</strong> List all purchase orders with an option to filter by vendor.</li>
+        <li><strong>GET /api/purchase_orders/{po_id}/:</strong> Retrieve details of a specific purchase order.</li>
+        <li><strong>PUT /api/purchase_orders/{po_id}/:</strong> Update a purchase order.</li>
+        <li><strong>DELETE /api/purchase_orders/{po_id}/:</strong> Delete a purchase order.</li>
+    </ul>
+<h4> Vendor Performance Evaluation</h4>
+<ul>
+ <li><strong>GET /api/vendors/{vendor_id}/performance</strong> Retrieve a vendor's performance
+metrics</li>
+</ul>
