@@ -52,23 +52,31 @@ pip install djangorestframework</p>
 
 <h2>These are the apis that will gonna work as mentioned in assignment</h2>
 <h4>Vendor Profile Management:</h4>
-     <ul>
-        <li><strong>POST /api/vendors/:</strong> Create a new vendor.</li>
-        <li><strong>GET /api/vendors/:</strong> List all vendors.</li>
-        <li><strong>GET /api/vendors/{vendor_id}/:</strong> Retrieve a specific vendor's details.</li>
-        <li><strong>PUT /api/vendors/{vendor_id}/:</strong> Update a vendor's details.</li>
-        <li><strong>DELETE /api/vendors/{vendor_id}/:</strong> Delete a vendor.</li>
-    </ul>
-<h4>Purchase Order Tracking:</h4>
-    <ul>
-        <li><strong>POST /api/purchase_orders/:</strong> Create a purchase order.</li>
-        <li><strong>GET /api/purchase_orders/:</strong> List all purchase orders with an option to filter by vendor.</li>
-        <li><strong>GET /api/purchase_orders/{po_id}/:</strong> Retrieve details of a specific purchase order.</li>
-        <li><strong>PUT /api/purchase_orders/{po_id}/:</strong> Update a purchase order.</li>
-        <li><strong>DELETE /api/purchase_orders/{po_id}/:</strong> Delete a purchase order.</li>
-    </ul>
-<h4> Vendor Performance Evaluation</h4>
 <ul>
- <li><strong>GET /api/vendors/{vendor_id}/performance</strong> Retrieve a vendor's performance
-metrics</li>
+    <li><strong>POST /api/vendors/</strong>: Create a new vendor.<br>![Screenshot (591)](https://github.com/sakshijain1234/vendor_management/assets/82942988/a491e5c9-b024-4a7e-aa35-b9b8b498bb1d)
+</li>
+    <li><strong>GET /api/vendors/</strong>: List all vendors.<br>![Screenshot (592)](https://github.com/sakshijain1234/vendor_management/assets/82942988/1123bf3d-bbc0-4e23-9bde-d5a45054b059)
+</li>
+    <li><strong>GET /api/vendors/{vendor_id}/</strong>: Retrieve a specific vendor's details.<br>![Screenshot (593)](https://github.com/sakshijain1234/vendor_management/assets/82942988/3a19b81f-48dd-4224-950e-3c9a5da75d0a)
+</li>
+    <li><strong>PUT /api/vendors/{vendor_id}/</strong>: Update a vendor's details.<br>![Screenshot (594)](https://github.com/sakshijain1234/vendor_management/assets/82942988/3133befc-0842-42ee-8cea-503a8cab0c10)
+</li>
+    <li><strong>DELETE /api/vendors/{vendor_id}/</strong>: Delete a vendor.<br>![Screenshot (595)](https://github.com/sakshijain1234/vendor_management/assets/82942988/6da91207-73e4-4098-9d2b-5f6327fad087)
+</li>
 </ul>
+
+<h4>Purchase Order Tracking:</h4>
+<ul>
+    <li><strong>POST /api/purchase_orders/</strong>: Create a purchase order.</li>
+    <li><strong>GET /api/purchase_orders/</strong>: List all purchase orders with an option to filter by vendor.</li>
+    <li><strong>GET /api/purchase_orders/{po_id}/</strong>: Retrieve details of a specific purchase order.</li>
+    <li><strong>PUT /api/purchase_orders/{po_id}/</strong>: Update a purchase order.</li>
+    <li><strong>DELETE /api/purchase_orders/{po_id}/</strong>: Delete a purchase order.</li>
+</ul>
+
+<h4>Vendor Performance Evaluation:</h4>
+<ul>
+    <li><strong>GET /api/vendors/{vendor_id}/performance</strong>: Retrieve a vendor's performance metrics.</li>
+</ul>
+
+
