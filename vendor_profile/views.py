@@ -63,11 +63,6 @@ def modify_profile(request,vendor_code):
         query_sets=vendor_model.objects.all()
         serializer=vendors_serializer(query_sets,many=True)
         return Response({"message":"Vendor deleted successfully","data":serializer.data})
-    
-# @api_view(["GET"])
-# def performance(request,vendor_code):
-#     serializer=performance_serializer(context={'vendor_code':vendor_code})
-#     return Response(serializer.data)
 
 class VendorPerformanceView(APIView):
     def get(self, request, vendor_code):
